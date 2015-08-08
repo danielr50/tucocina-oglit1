@@ -1,0 +1,50 @@
+/* Empty. Add your own CSS if you like */
+.cuadrados{
+	background: rgba(44, 62, 80,0.6);
+	margin:1%;
+}
+.letras_btn{
+	text-align: center;
+	color:#fff;
+}
+
+.iconos{
+	text-align: center;
+	padding-top: 30px;
+}
+a:link   
+{   
+ text-decoration:none;   
+}   
+a:hover  { 
+    font-size: 102%;
+}
+.cuadrados:hover{
+	background-color: rgba(44, 62, 80,0.9);
+}
+
+.gran_contenedor{
+	background-image: url(../img/fondo1.jpg);
+	padding-right: 4%;
+}
+.centro_menu{
+	text-align:center;
+	margin-bottom:-3%;
+	padding-top:5%;
+}
+
+.cuadrados a h3 {
+	font-size: 1.2em;
+}
+
+.imagen{
+	border-width: 50px;
+}
+
+#logotucocina{
+	width:60%;
+}
+.tucocina{
+	padding-top:10px;
+	text-align: center;
+}
