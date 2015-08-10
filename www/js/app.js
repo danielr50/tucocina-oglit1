@@ -55,6 +55,11 @@ app.config(function($stateProvider, $urlRouterProvider) {
     templateUrl: 'templates/juegos.html'
   })
 
+    .state('promociones', {
+    url: '/promociones',
+    templateUrl: 'templates/promociones.html'
+  })
+
     .state('bebidas', {
     url: '/bebidas',
     templateUrl: 'templates/bebidas.html'
