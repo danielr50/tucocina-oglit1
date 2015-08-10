@@ -69,7 +69,7 @@ app.config(function($stateProvider, $urlRouterProvider) {
     .state('menu-ensaladas', {
       url: '/menu-ensaladas',
       templateUrl: 'templates/menu-ensaladas.html'
-    }) 
+    })
 
     .state('ensaladas', {
     url: '/ensaladas',
@@ -84,6 +84,16 @@ app.config(function($stateProvider, $urlRouterProvider) {
   .state('plato', {
     url: '/plato',
     templateUrl: 'templates/plato.html'
+  })
+
+  .state('menu-plato', {
+    url: '/menu-plato',
+    templateUrl: 'templates/menu-plato.html'
+  })
+
+  .state('menu-postres', {
+    url: '/menu-postres',
+    templateUrl: 'templates/menu-postres.html'
   });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/home');
