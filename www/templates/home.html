@@ -6,8 +6,8 @@
     </div>
     <div class="row">
       <!-- inicio de boton LLAMAR MESERO -->
-            <div class="col col-50 cuadrados">
-              <a href="#/mesero">
+            <div class="col col-50 cuadrados" ng-controller="MeseroCtrl">
+              <a ng-click="llamadaMesero()">
                 <div class="iconos">
                   <img src="img/llamarmesero.png" alt="llamar_mesero">
                 </div>
@@ -33,7 +33,7 @@
               <div class="iconos">
                 <img src="img/pedircuenta.png" alt="cuenta">
               </div>
-            <h3 class="letras_btn">PEDIR CUENTA</h3>
+            <h3 class="letras_btn">TU PEDIDO</h3>
             </a> 
           </div>
       <!-- Final del boton PEDIR CUENTA -->
@@ -43,7 +43,7 @@
               <div class="iconos">
                 <img src="img/ICentretenimiento.png" alt="juegos">
               </div>
-             <h3 class="letras_btn">JUEGOS</h3>
+             <h3 class="letras_btn">ENTRETENIMIENTO</h3>
              </a>
           </div>
       <!-- Final De Boton JUEGOS --> 

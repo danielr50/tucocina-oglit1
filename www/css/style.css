@@ -48,3 +48,7 @@ a:hover  {
 	padding-top:10px;
 	text-align: center;
 }
+
+.popup-container.active .popup{
+	border-radius: 14px;
+}
