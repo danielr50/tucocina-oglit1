@@ -98,8 +98,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
   .state('plato', {
     url: '/plato',
     templateUrl: 'templates/plato.html'
+  })
+  // VISTA RESUMEN
+  .state('resumen', {
+    url: '/resumen',
+    templateUrl: 'templates/resumen.html'
   });
-
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/home');
 
