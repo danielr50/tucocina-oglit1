@@ -94,6 +94,11 @@ app.config(function($stateProvider, $urlRouterProvider) {
   .state('menu-postres', {
     url: '/menu-postres',
     templateUrl: 'templates/menu-postres.html'
+  })
+
+  .state('menu-bebidas', {
+    url: '/menu-bebidas',
+    templateUrl: 'templates/menu-bebidas.html'
   });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/home');
