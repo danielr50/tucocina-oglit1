@@ -50,6 +50,13 @@ app.config(function($stateProvider, $urlRouterProvider) {
     url: '/cuenta',
     templateUrl: 'templates/cuenta.html'
   })
+
+  //RESUMEN PEDIDO
+  .state('resumen-pedido', {
+    url: '/resumen-pedido',
+    templateUrl: 'templates/resumen-pedido.html'
+  })
+
     // VISTA PROMOCIONES
     .state('promociones', {
     url: '/promociones',
