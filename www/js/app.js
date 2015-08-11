@@ -28,78 +28,78 @@ app.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
 
   // setup an abstract state for the tabs directive
+  // VISTA HOME PRINCIPAL
     .state('home', {
     url: '/home',
     templateUrl: 'templates/home.html'
   })
 
   // Each tab has its own nav history stack:
-
+  // VISTA MESERO
   .state('mesero', {
     url: '/mesero',
         templateUrl: 'templates/mesero.html'
   })
-
+  // VISTA MENU
   .state('menu', {
     url: '/menu',
     templateUrl: 'templates/menu.html'
   })
-
+  // VISTA PEDIR CUENTA
   .state('cuenta', {
     url: '/cuenta',
     templateUrl: 'templates/cuenta.html'
   })
-
-   .state('juegos', {
-    url: '/juegos',
-    templateUrl: 'templates/juegos.html'
-  })
-
+    // VISTA PROMOCIONES
     .state('promociones', {
     url: '/promociones',
     templateUrl: 'templates/promociones.html'
   })
 
-    .state('bebidas', {
-    url: '/bebidas',
-    templateUrl: 'templates/bebidas.html'
-  })
-
-
-    .state('menu-ensaladas', {
-      url: '/menu-ensaladas',
-      templateUrl: 'templates/menu-ensaladas.html'
-    })
-
-    .state('ensaladas', {
-    url: '/ensaladas',
-    templateUrl: 'templates/ensaladas.html'
-  })
-
-    .state('postres', {
-    url: '/postres',
-    templateUrl: 'templates/postres.html'
-  })
-
-  .state('plato', {
-    url: '/plato',
-    templateUrl: 'templates/plato.html'
-  })
-
+       // VISTA MENU DEL PLATO
   .state('menu-plato', {
     url: '/menu-plato',
     templateUrl: 'templates/menu-plato.html'
   })
-
+  // VISTA MENU POSTRE
   .state('menu-postres', {
     url: '/menu-postres',
     templateUrl: 'templates/menu-postres.html'
   })
-
+  // VISTA MENU BEBIDAS
   .state('menu-bebidas', {
     url: '/menu-bebidas',
     templateUrl: 'templates/menu-bebidas.html'
+  })
+
+    // VISTA MENU DE LAS ENSALADAS
+    .state('menu-ensaladas', {
+      url: '/menu-ensaladas',
+      templateUrl: 'templates/menu-ensaladas.html'
+    })
+    
+      // VISTA SELECCIONAR VINOS
+    .state('bebidas', {
+    url: '/bebidas',
+    templateUrl: 'templates/bebidas.html'
+  })
+    
+    // VISTA SELECCIONAR INGREDIENTES ENSALADAS
+    .state('ensaladas', {
+    url: '/ensaladas',
+    templateUrl: 'templates/ensaladas.html'
+  })
+     // VISTA SELECCIONAR INGREDIENTES POSTRE
+    .state('postres', {
+    url: '/postres',
+    templateUrl: 'templates/postres.html'
+  })
+     // VISTA SELECCIONAR INGREDIENTES PLATO FUERTE
+  .state('plato', {
+    url: '/plato',
+    templateUrl: 'templates/plato.html'
   });
+
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/home');
 
