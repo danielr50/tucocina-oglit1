@@ -13,8 +13,8 @@ app.controller('MeseroCtrl', ['$scope', '$ionicPopup', '$timeout' ,function($sco
 	       // An alert dialog
 		
 		   var alertPopup = $ionicPopup.alert({
-		     title: 'Don\'t eat that!',
-		     template: 'It might taste good'
+		     title: 'Gracias',
+		     template: 'El mesero llegara en unos segundos'
 		   });
 		   alertPopup.then(function(res) {
 		     console.log('Thank you for not eating my delicious ice cream cone');
