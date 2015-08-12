@@ -105,8 +105,17 @@ app.config(function($stateProvider, $urlRouterProvider) {
   .state('plato', {
     url: '/plato',
     templateUrl: 'templates/plato.html'
+  })
+  // VISTA RESUMEN
+  .state('resumen', {
+    url: '/resumen',
+    templateUrl: 'templates/resumen.html'
+  })
+  // VISTA PEDIR CUENTA
+  .state('pedircuenta', {
+    url: '/pedircuenta',
+    templateUrl: 'templates/pedircuenta.html'
   });
-
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/home');
 

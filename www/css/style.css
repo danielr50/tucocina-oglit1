@@ -52,3 +52,18 @@ a:hover  {
 .popup-container.active .popup{
 	border-radius: 14px;
 }
+.alinear{
+	display: inline; 
+}
+.alinear span {
+	float: right;
+}
+
+.total {
+	color: red ;
+}
+
+.colortotal h2 {
+	color: red;
+	text-align: center;
+}
