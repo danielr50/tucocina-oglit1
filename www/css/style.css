@@ -62,3 +62,8 @@ a:hover  {
 .total {
 	color: red ;
 }
+
+.colortotal h2 {
+	color: red;
+	text-align: center;
+}

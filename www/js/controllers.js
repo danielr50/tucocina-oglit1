@@ -28,6 +28,8 @@ app.controller('MeseroCtrl', ['$scope', '$ionicPopup', '$timeout' ,function($sco
 	
 }]);
 
+// AUN TRABAJO EN ESTA CONTROLADOR NO TOCAR
+
 //  $scope.hacerpedido = function() {
 // 	   var confirmPopup = $ionicPopup.confirm({
 // 	     title: 'Confirmación',
