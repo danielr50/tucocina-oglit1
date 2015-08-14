@@ -1,77 +1,80 @@
 <ion-view view-title="Menu Ingredientes">
   <ion-content>
-
+<!-- ESTE DIV CONTIENE LA IMAGEN TITULO Y BOTONES DE PRECIO Y AGREGAR AL PEDIDO -->
   <div class="list card">
 
   <div class="item item-avatar">
-    <img src="img/logo-transparente-doh3.png">
-    <h2>Ensalada de Pollo</h2>
-    <p>Ensaladas - Hamburguesas del Oeste</p>
+      <img src="img/logo-transparente-doh3.png">
+      <h2>Ensalada de Pollo</h2>
+      <p>Ensaladas - Hamburguesas del Oeste</p>
   </div>
-
   <div class="item item-image">
-    <img src="img/ensalada3.png" style="width:300px;">
+       <img src="img/ensalada3.png" style="width:300px;">
   </div>
-
-  <a class="item item-icon-left assertive" href="#">
+  <button class=" button button-dark col col-50" style="margin:0 auto;"> Precio : 22.900 </button>
+   <!-- AGREGAR PEDIDO -->
+    <button class="button button-block button-positive">
+      <i class="icon ion-plus-circled"></i>
+      AGREGAR AL PEDIDO
+    </button>
+  </div>
+<!-- FINAL DEL DIV -->
+<!-- ESTE DIV CONTIENE EL BOTON SELECCION DE INGREDIENTES  -->
+<div class="item item-divider">
+    <h1 class="item item-icon-left calm" href="#">
     <i class="icon ion-clipboard"></i>
     Seleccionar Ingredientes 
-  </a>
-
+  </h1>
 </div>
-  <!-- Inicio de la lista -->
-    <ul class="list">
+<!-- FINAL DEL DIV  -->
 
-   <!-- Boton enviar -->
-<button class="button button-block button-positive">
-  
-  <i class="icon ion-plus-circled"></i>
- AGREGAR AL PEDIDO
-</button>
+<!-- Inicio de la lista -->
+<ul class="list">
 
-
-
-
-  <li class="item item-checkbox">
+  <li class="item item-checkbox item-button-right">
      <label class="checkbox">
        <input type="checkbox" checked="checked" >
      </label>
      Ensalada de pasta
+     <button class="button button-clear ">$19.000</button>
   </li>
-  <li class="item item-checkbox">
+  <li class="item item-checkbox item-button-right">
      <label class="checkbox">
-       <input type="checkbox" checked="checked">
+        <input type="checkbox" checked="checked">
      </label>
      Ensalada de pollo
+     <button class="button button-clear">$19.000</button>
   </li>
-  <li class="item item-checkbox">
+  <li class="item item-checkbox item-button-right">
      <label class="checkbox">
-       <input type="checkbox" checked="checked">
+         <input type="checkbox" checked="checked">
      </label>
      Ensalada de arroz
+     <button class="button button-clear">$19.000</button>
   </li>
-  <li class="item item-checkbox">
+  <li class="item item-checkbox item-button-right">
      <label class="checkbox">
        <input type="checkbox" checked="checked">
      </label>
-     Ensalada de pasta y atún
+        Ensalada de pasta y atún
+        <button class="button button-clear">$19.000</button>
   </li>
-  <li class="item item-checkbox">
+  <li class="item item-checkbox item-button-right">
      <label class="checkbox">
        <input type="checkbox" checked="checked">
      </label>
      Old Parr
+      <button class="button button-clear">$19.000</button>
   </li>
-  <li class="item item-checkbox">
+  <li class="item item-checkbox item-button-right">
      <label class="checkbox">
        <input type="checkbox" checked="checked">
      </label>
      Ensalada de patata
+     <button class="button button-clear">$19.000</button>
   </li>
 
 </ul>
  <!-- Final Lista -->
-
-<!-- Final enviar -->
   </ion-content>
 </ion-view>
