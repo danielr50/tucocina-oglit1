@@ -1,46 +1,32 @@
 <ion-view view-title="Menu Ingredientes">
   <ion-content>
-
+<!-- ESTE DIV CONTIENE LA IMAGEN TITULO Y BOTONES DE PRECIO Y AGREGAR AL PEDIDO -->
   <div class="list card">
-
-  <div class="item item-avatar">
-    <img src="img/logo-transparente-doh3.png">
-    <h2>Bebidas</h2>
-    <p>Bebidas - Hamburguesas del Oeste</p>
-
-
+     <div class="item item-avatar">
+        <img src="img/logo-transparente-doh3.png">
+        <h2>Bebidas</h2>
+        <p>Bebidas - Hamburguesas del Oeste</p>
+      </div>
+    <div class="item item-image">
+      <img src="img/vino.png" style="width:300px;">
+    </div>
+      <button class=" button button-dark col col-50" style="margin:0 auto;"> Precio : 22.900</button>
+<!-- FINAL DEL DIV -->
+<!-- BOTON DE AGREGAR AL PEDIDO -->
+      <button class="button button-block button-positive" href="#" style="margin:7px; margin-right:30px;">  
+        <i class="icon ion-plus-circled"></i>
+          AGREGAR AL PEDIDO
+      </button>
   </div>
-
-  <div class="item item-image">
-    <img src="img/vino.png" style="width:300px;">
-  </div>
-
-
-<button class=" button button-dark col col-50" style="margin:0 auto;"> Precio : 22.900</button>
-
-<button class="button button-block button-positive" href="#" style="margin:7px; margin-right:30px;">  
- <i class="icon ion-plus-circled"></i>
- AGREGAR AL PEDIDO
-</button>
-
-
-
-</div>
-  <!-- Inicio de la lista -->
   <div class="item item-divider">
     <h1 class="item item-icon-left calm" href="#">
     <i class="icon ion-clipboard"></i>
     Seleccionar Ingredientes 
-  </h1>
+    </h1>
   </div>
-
+  <!-- Inicio de la lista -->
   <div>
     <ul class="list">
-
-       <!-- Boton enviar -->
-
-
-
       <li class="item item-checkbox item-button-right">
          <label class="checkbox">
            <input type="checkbox" checked="checked" >
@@ -50,7 +36,7 @@
       </li>
 
 
-      <li class="item item-checkbox item-button-right">
+      <li class="item item-checkbox item-button-right item-button-right">
          <label class="checkbox">
            <input type="checkbox">
          </label>
